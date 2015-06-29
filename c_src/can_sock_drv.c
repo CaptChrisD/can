@@ -35,6 +35,10 @@
 // sudo ln -s /usr/include/can
 //
 
+// WARNING: HACK THAT MAYBE SHOULDNT BE DONE TO GET THINGS BUILDING
+// UNDER THE NEW NERVES
+#define DLOG_NONE          0
+
 #include <linux/can.h>
 #include <linux/can/raw.h>
 
